@@ -14,7 +14,5 @@ public class Lectura {
         System.out.println(pelicula);
         System.out.println(fechaDeLanzamiento);
         System.out.println(nota);
-
-        
     }
 }

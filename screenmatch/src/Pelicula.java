@@ -4,8 +4,8 @@ public class Pelicula {
     int fechaDeLanzamiento;
     int duracionEnMinutos;
     Boolean incluidoEnElPlan;
-    double sumaDeLasEvaluaciones;
-    int totalDeLasEvaluaciones;
+    private double sumaDeLasEvaluaciones;
+    private int totalDeLasEvaluaciones;
 
 
 

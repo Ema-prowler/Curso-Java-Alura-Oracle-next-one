@@ -6,3 +6,5 @@ Lo aprendido durante el curso:
 2. Interactuar con el usuario usando clase Scanner
 3. Tomar decisiones usando if y else
 4. Usar bucles for y while
+
+---

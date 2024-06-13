@@ -7,8 +7,13 @@ public class Principal {
         miPelicula.fechaDeLanzamiento = 2021;
         miPelicula.duracionEnMinutos = 120;
 
-        System.out.println("Mi pelicula es: " + miPelicula.nombre);
-        System.out.println("La fecha de lanzamiento es: " + miPelicula.fechaDeLanzamiento);
+        miPelicula.muestraFichaTecnica();
+        miPelicula.evalua(10);
+        miPelicula.evalua(10);
+
+        System.out.println(miPelicula.sumaDeLasEvaluaciones);
+        System.out.println(miPelicula.totalDeLasEvaluaciones);
+        System.out.println(miPelicula.calculaMedia());
 
         Pelicula otraPelicula = new Pelicula(); /*Para crear otra pelicula hay que crear una nueva instancia de la clase Pelicula*/
 
@@ -16,8 +21,7 @@ public class Principal {
         otraPelicula.fechaDeLanzamiento = 1998;
         otraPelicula.duracionEnMinutos = 180;
 
-        System.out.println("La pelicula es: " + otraPelicula.nombre);
-        System.out.println("La fecha de lanzamiento es: " + otraPelicula.fechaDeLanzamiento);
+        otraPelicula.muestraFichaTecnica();
 
 
     }

@@ -17,3 +17,5 @@ Lo aprendido durante el curso:
 ---
 
 9.SobreEscritura de metodos
+10.Herencia
+11.Polimorfismo

@@ -8,3 +8,8 @@ Lo aprendido durante el curso:
 4. Usar bucles for y while
 
 ---
+
+5.Modificadores de acceso
+6.Getter y Setters
+7.Paquetes
+8.Encapsulamiento

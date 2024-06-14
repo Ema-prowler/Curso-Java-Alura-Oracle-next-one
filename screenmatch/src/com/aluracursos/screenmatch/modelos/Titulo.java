@@ -8,7 +8,6 @@ public class Titulo {
     private Boolean incluidoEnElPlan;
     private double sumaDeLasEvaluaciones;
     private int totalDeLasEvaluaciones;
-
     //getters
 
     public String getNombre() {
@@ -59,7 +58,7 @@ public class Titulo {
     public void muestraFichaTecnica(){
         System.out.println("EL nombre de la pelicula es: " + nombre);
         System.out.println("La fecha de lanzamiento es: " + fechaDeLanzamiento);
-        System.out.println("La duracion es: " + duracionEnMinutos);
+        System.out.println("La duracion es: " + getDuracionEnMinutos());
 
     }
 

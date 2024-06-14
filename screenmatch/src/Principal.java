@@ -1,3 +1,5 @@
+import com.aluracursos.screenmatch.modelos.Pelicula;
+
 public class Principal {
 
     public static void main(String[] args) {
@@ -15,13 +17,13 @@ public class Principal {
 
         System.out.println(miPelicula.calculaMedia());
 
-        Pelicula otraPelicula = new Pelicula(); /*Para crear otra pelicula hay que crear una nueva instancia de la clase Pelicula*/
+        Pelicula otraPelicula = new Pelicula(); /*Para crear otra pelicula hay que crear una nueva instancia de la clase com.aluracursos.screenmatch.modelos.Pelicula*/
 
-        otraPelicula.nombre = "Matrix";
-        otraPelicula.fechaDeLanzamiento = 1998;
-        otraPelicula.duracionEnMinutos = 180;
-
-     //  otraPelicula.muestraFichaTecnica();
+//        otraPelicula.nombre = "Matrix";
+//        otraPelicula.fechaDeLanzamiento = 1998;
+//        otraPelicula.duracionEnMinutos = 180;
+//
+//       otraPelicula.muestraFichaTecnica();
 
 
     }

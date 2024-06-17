@@ -34,7 +34,7 @@ public class Principal {
 
 
         System.out.println("Total de reproducciones: " + miCancion.getTotalDeReproducciones());
-        System.out.println("Total de megustas: "+miCancion.getTotalDeMegusta());
+        System.out.println("Total de megustas: " + miCancion.getTotalDeMegusta());
 
 
         MisFavoritos favoritos = new MisFavoritos();
